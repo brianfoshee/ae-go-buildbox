@@ -1,7 +1,7 @@
-FROM golang:1.8
+FROM golang:1.9
 
-ENV GOOGLE_CLOUD_SDK_VERSION=161.0.0
-ENV GOOGLE_APP_ENGINE_SDK_VERSION=1.9.55
+ENV GOOGLE_CLOUD_SDK_VERSION=196.0.0
+ENV GOOGLE_APP_ENGINE_SDK_VERSION=1.9.64
 ENV CLOUDSDK_APP_RUNTIME_ROOT=/google-cloud-sdk/platform/ext-runtime/
 RUN apt-get update
 RUN apt-get install -y apt-utils curl python unzip
